@@ -1,5 +1,6 @@
 #!/bin/bash
 # Configure
+autoreconf -fi &&
 ./configure --prefix=/usr \
             --with-libpng \
             --without-libsamplerate &&

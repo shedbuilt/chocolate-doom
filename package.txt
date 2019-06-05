@@ -1,8 +1,8 @@
 NAME=chocolate-doom
-VERSION=2.3.0
-REVISION=2
-SRC=https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz
-SRCMD5=5759b36c9a342e8d62ecdcc5fc9f428c
-BUILDDEPS=sdl sdl-mixer sdl-net python libpng
-INSTALLDEPS=sdl sdl-mixer sdl-net python libpng
+VERSION=3.0.0
+REVISION=3
+SRC=https://github.com/chocolate-doom/chocolate-doom/archive/chocolate-doom-3.0.0.tar.gz
+SRCMD5=b55bb8708651856990a02909636224a9
+BUILDDEPS=sdl2 sdl2-mixer sdl2-net python3 libpng
+INSTALLDEPS=sdl2 sdl2-mixer sdl2-net python3 libpng
 RUNDEPS=alsa-utils
